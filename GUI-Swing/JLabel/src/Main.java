@@ -33,6 +33,7 @@ public class Main {
         frame.setVisible(true);
         //frame.setLayout(null); // layout manager'i kapatır. Yani pencerenin boyutunu değiştirdiğinde kendi ayarlamayacak artık
 
+        frame.setLayout(new FlowLayout());  //JFrame’in içindeki bileşenlerin nasıl yerleşeceğini belirler. FlowLayout ile border kendi boyutunda kalır
         frame.add(label);
         frame.pack(); // pencereyi label'a göre ayarlar
 
