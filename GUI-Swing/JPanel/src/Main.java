@@ -15,6 +15,7 @@ public class Main {
         bluePanel.setLayout(null);
 
 
+
         JPanel greenPanel = new JPanel();
         greenPanel.setBackground(Color.GREEN);
         greenPanel.setBounds(0,250,500,250);
@@ -30,6 +31,7 @@ public class Main {
         label.setVerticalAlignment(JLabel.TOP);  // label'ı bulunduğu containerin en üst noktasına sıfırlar
         label.setHorizontalAlignment(JLabel.LEFT);
         label.setBounds(0,0,250,250);
+
         bluePanel.add(label);
 
 
